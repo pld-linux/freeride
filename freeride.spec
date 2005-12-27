@@ -2,14 +2,14 @@ Summary:	FreeRIDE - IDE for Ruby
 Summary(pl):	FreeRIDE - IDE dla jêzyka Ruby
 Name:		freeride
 Version:	0.6.0
-Release:	1
+Release:	2
 License:	Ruby License
 Group:		Development/Tools
 Source0:	http://rubyforge.org/download.php/256/%{name}-%{version}.tgz
 # Source0-md5:	1fc5dbd376437ce6da7df303b0907244
 URL:		http://www.rubyide.org/
-BuildRequires:	ruby
-Requires:	ruby
+BuildRequires:	ruby-modules
+Requires:	ruby-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
