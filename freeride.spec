@@ -8,8 +8,9 @@ Group:		Development/Tools
 Source0:	http://rubyforge.org/download.php/256/%{name}-%{version}.tgz
 # Source0-md5:	1fc5dbd376437ce6da7df303b0907244
 URL:		http://www.rubyide.org/
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
-Requires:	ruby-modules
+%ruby_mod_ver_requires_eq
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
