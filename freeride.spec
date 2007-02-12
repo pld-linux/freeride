@@ -1,5 +1,5 @@
 Summary:	FreeRIDE - IDE for Ruby
-Summary(pl):	FreeRIDE - IDE dla jêzyka Ruby
+Summary(pl.UTF-8):   FreeRIDE - IDE dla jÄ™zyka Ruby
 Name:		freeride
 Version:	0.6.0
 Release:	2
@@ -16,9 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 FreeRIDE is a cross-platform IDE for the Ruby Programming Language.
 
-%description -l pl
-FreeRIDE to wieloplatformowe zintegrowane ¶rodowisko programistyczne
-(IDE) dla jêzyka Ruby.
+%description -l pl.UTF-8
+FreeRIDE to wieloplatformowe zintegrowane Å›rodowisko programistyczne
+(IDE) dla jÄ™zyka Ruby.
 
 %prep
 %setup -q
