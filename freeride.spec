@@ -1,5 +1,5 @@
 Summary:	FreeRIDE - IDE for Ruby
-Summary(pl.UTF-8):   FreeRIDE - IDE dla języka Ruby
+Summary(pl.UTF-8):	FreeRIDE - IDE dla języka Ruby
 Name:		freeride
 Version:	0.6.0
 Release:	2
